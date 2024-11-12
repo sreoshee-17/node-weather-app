@@ -16,11 +16,16 @@ A basic weather app built using NodeJS and ExpressJS
 * Displays date, location, weather condition and temperature using OpenWeatherAPI
 
 
+## Live Link
+https://node-weather-app-fx8v.onrender.com/
+
+
 ## Screenshots
 
 ![Front Page](https://github.com/sreoshee-17/node-weather-app/blob/main/Front%20page.png)
 
 ![Result](https://github.com/sreoshee-17/node-weather-app/blob/main/Result.png)
+
 
 
 ## License
