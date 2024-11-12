@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-content">
+            {{> header }}
+            <article class="widget">
+                <form action="" class="weatherLocation">
+                    <input type="text" class="input-field" placeholder="Enter any city">
+                    <button class="search-button">
+                        <span class="material-icons">search</span>
+                    </button>
+                </form>
+                <div class="front-image">
+                    <img src="/image.png" alt="Weather Image" class="pre-search-image">
+                    <span>Find out the weather conditions of any city</span>
+                </div>
+                <div class="icon-and-weatherInfo">
+                    <div class="weatherIcon">
+                        <i></i>
+                    </div>
+                    <div class="weatherInfo">
+                        <div class="temperature"><span></span></div>
+                        <div class="weatherCondition"></div>
+                    </div>
+                </div>
+                <div class="place"></div>
+                <div class="date"></div>
+            </article>
+        </div>
+        <script type="text/javascript" src="/js/app.js"></script>
+    </body>
+</html>
